@@ -1,5 +1,6 @@
-div.botão{
+p.save{
     width:30px;
     height:30px;
     border: 25px solid;
+    border-color: black;
 }
