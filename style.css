@@ -1,13 +1,261 @@
-.save{
-    width:60px;
-    height:30px;
-    border: 50px;
-    border-color: black;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.cancel{
-    width:60px;
-    height:30px;
-    border: 50px;
-    border-color:black; 
+
+img#save {
+    width: 13px;
+    height: 13px;
+}
+
+img#cancel {
+    width: 13px;
+    height: 13px;
+}
+
+img#edit {
+    width: 13px;
+    height: 13px;
+}
+
+img#savedraft {
+    width: 13px;
+    height: 13px;
+}
+
+img#undo {
+    width: 13px;
+    height: 13px;
+}
+
+img#redo {
+    width: 13px;
+    height: 13px;
+}
+
+img#um {
+    width: 13px;
+    height: 13px;
+}
+
+img#dois {
+    width: 13px;
+    height: 13px;
+}
+
+img#tres {
+    width: 13px;
+    height: 13px;
+}
+
+span.dois {
+    display: inline-block;
+}
+
+img#delete {
+    width: 13px;
+    height: 13px;
+}
+
+img#paper {
+    width: 13px;
+    height: 13px;
+}
+
+img#help{
+    width: 13px;
+    height: 13px;
+}
+
+img#new {
+    width: 13px;
+    height: 13px;
+}
+
+table#tabela {
+    border-collapse: collapse;
+    border: 1px solid rgb(140 140 140);
+    font-family: Arial;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+
+
+td, th {
+  border: 1px solid rgb(160 160 160);
+  padding: 7px 15px;
+  font-family: Arial;
+  text-align: left;
+}
+
+img#lixeira {
+    width: 13px;
+    height: 13px; 
+}
+
+img#newpaper{
+    width: 13px;
+    height: 13px; 
+}
+
+table#tabeladois {
+    border-collapse: collapse;
+    border: 1px solid rgb(140 140 140);
+    font-family: Arial;
+    font-size: 0.7rem;
+    letter-spacing: 1px; 
+}
+
+img#quatro {
+    width: 13px;
+    height: 13px;
+}
+
+img#cinco {
+    width: 13px;
+    height: 13px;
+}
+
+img#copy {
+    width: 13px;
+    height: 13px;
+}
+
+#div1, #div2 {
+    float: left;
+    margin: 10px;
+}
+
+p.um,p.dois{
+    display: inline;
+}
+
+p.três,p.quatro{
+    display: inline;
+}
+
+p.cinco,p.seis{
+    display: inline;
+}
+
+p.sete,p.oito{
+    display: inline;
+}
+
+p.nove,p.dez{
+    display: inline;
+}
+
+p.onze,p.doze{
+    display: inline;
+}
+
+p.treze,p.quatorze{
+    display: inline;
+}
+
+p.quinze,p.dezesseis{
+    display: inline;
+}
+
+p.seis, p.oito, p.dez, p.doze, p.quatorze {
+    border: 1px solid black; 
+    padding: 1px 100px; 
+}
+
+p.dois, p.quatro, p.dezesseis {
+    text-align: left;
+    border: 1px solid black; 
+    padding: 1px 5px;
+}
+
+p.dois {
+    margin: 1px 1px 1px 5px;
+}
+p.quatro {
+    margin: 1px 1px 1px 35px;
+}
+p.seis {
+    margin: 1px 1px 1px 50px;
+}
+p.oito {
+    margin: 1px 1px 1px 50px;
+}
+p.dez {
+    margin: 1px 1px 1px 15px;
+}
+p.doze {
+    margin: 1px 1px 1px 1px;
+}
+p.quatorze {
+    margin: 1px 1px 1px 55px;
+}
+p.dezesseis {
+    margin: 1px 1px 1px px;
+}
+
+#diva, #divb {
+    float: inline-start;
+    margin: 10px;
+}
+
+p.a, p.a1 {
+    display: inline;
+}
+p.b, p.b1 {
+    display: inline;
+}
+p.c, p.c1 {
+    display: inline;
+}
+p.d, p.d1 {
+    display: inline;
+}
+p.e, p.e1 {
+    display: inline;
+}
+p.f, p.f1 {
+    display: inline;
+}
+p.g, p.g1 {
+    display: inline;
+}
+p.h, p.h1 {
+    display: inline;
+}
+
+p.b1, p.d1, p.e1, p.f1, p.g1, p.h1 {
+    border:  1px solid black; 
+    padding: 1px 100px; 
+}
+
+p.a1, p.c1 {
+    text-align: left;
+    border: 1px solid black; 
+    padding: 1px 5px;
+}
+
+p.a1 {
+    margin: 1px 1px 1px 120px;
+}
+p.b1 {
+    margin: 1px 1px 1px 115px;    
+}
+p.c1 {
+    margin: 1px 1px 1px 100px;    
+}
+p.d1 {
+    margin: 1px 1px 1px 120px;    
+}
+p.e1 {
+    margin: 1px 1px 1px 45px;
+}
+p.f1 {
+    margin: 1px 1px 1px 5px;
+}
+p.g1 {
+    margin: 1px 1px 1px 40px;
+}
+p.h1 {
+    margin: 1px 1px 1px 22px;
 }
