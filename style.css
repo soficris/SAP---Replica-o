@@ -261,27 +261,422 @@ p.h1 {
 }
 
 
+#div1a{
+    display: flex;
+    justify-content: flex-start; 
+}
+#divv {
+    background-color: rgb(214, 228, 245);
+    border: 5px rgb(214, 228, 245);
+    display: flex;
+    justify-content: flex-start; 
+    border-radius: 13px;
+    width: 880px;
+}
 #p1 {
     color : white;
     border: 1px solid rgb(22, 55, 163); 
     padding: 1px 5px;
     border-radius: 50px;
     background-color:  rgb(22, 55, 163); 
+    width: 130px;
+    height: 20px;
 }
-
-
 .texto {
     color : white;
     border: 1px solid rgb(22, 55, 163); 
     padding: 1px 5px;
     border-radius: 50px;
     background-color:  rgb(22, 55, 163);
+    text-align: center;
 }
-
-#sec1{
-    display: flex;
-    justify-content: flex-start;
+#div4a {
+    margin-left: 10px;
+    margin-top:20px;
+}
+#div1b {
     background-color: rgb(214, 228, 245);
     border: 5px rgb(214, 228, 245);
-    
+    border-radius: 13px;
+    width: 500px;
+    margin-left: 30px;
+    height: 270px;
+}
+#div2b {
+    display: flex;
+    justify-content: flex-start; 
+}
+#texto1 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#texto2 {
+    margin-left: 70px;
+    font-size: 13px;
+}
+#div3b {
+    display: flex;
+    justify-content: flex-start; 
+}
+.texto1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+hr {
+    width: 450px;
+    margin-top: 1px;
+}
+#div4b {
+    display: flex;
+    justify-content: flex-start; 
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 45px;
+
+}
+.texto2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#texto3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    border: 5px green;
+    border-radius: 5px;
+    color: white;
+}
+#div5b {
+    display: flex;
+    justify-content: flex-start; 
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 45px;
+
+}
+.texto3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#texto4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    border: 5px yellow;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    color: white;
+}
+#div6b {
+    display: flex;
+    justify-content: flex-start; 
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 45px;
+
+}
+.texto4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#texto5 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    border: 5px red;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    color: white;
+}
+#div1c {
+    display: flex;
+    justify-content: flex-start;
+}
+#div2c {
+    background-color: rgb(214, 228, 245);
+    border: 5px rgb(214, 228, 245);
+    border-radius: 13px;
+    width: 850px;
+    margin-top: 30px;
+    height: 260px;
+}
+#div3c {
+    display: flex;
+    justify-content: flex-start;
+}
+#texto6 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#texto7{
+    margin-left: 320px;
+    font-size: 13px;
+}
+#div4c {
+    display: flex;
+    justify-content: flex-start;
+}
+#div5c {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 125px;
+    height: 180px;
+}
+#div6c, #div7c, #div8c, #div9c, #div10c {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 125px;
+    height: 180px;
+}
+.img1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.texto5 {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.texto6 {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.circulo {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+.img2 {
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+#seta{
+    width: 20px;
+    height: 20px;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+#div1d {
+    background-color: rgb(214, 228, 245);
+    border: 5px rgb(214, 228, 245);
+    border-radius: 13px;
+    width: 485px;
+    margin-left: 30px;
+    height: 260px;
+    margin-top: 30px;
+}
+#div2d {
+    display: flex;
+    justify-content: flex-start; 
+}
+#texto8 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#texto9 {
+    margin-left: 100px;
+    font-size: 13px;
+}
+#div3d {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 45px;
+    display: flex;
+}
+.img5 {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.texto7{
+    font-size: 12px;
+    margin-left: 10px;
+    margin: 10px;
+}
+.texto8{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#div4d {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 45px;
+    display: flex;
+}
+.img5 {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#div5d {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 45px;
+    display: flex;
+}
+#div6d {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 45px;
+    display: flex;
+}
+#div1e {
+    display: flex;
+    justify-content: flex-start;
+}
+#div2e {
+    background-color: rgb(214, 228, 245);
+    border: 5px rgb(214, 228, 245);
+    border-radius: 13px;
+    width: 830px;
+    margin-top: 30px;
+    height: 260px;
+}
+#div3e {
+    display: flex;
+    justify-content: flex-start;
+}
+#texto10 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#texto11 {
+    margin-left: 380px;
+    font-size: 13px;
+}
+#div4e {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+.texto9 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.texto10 {
+    margin-left: 10px;
+    font-size: 15px;
+    width: 75.73px;
+}
+.img6 {
+    width: 500px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#div1f {
+    background-color: rgb(214, 228, 245);
+    border: 5px rgb(214, 228, 245);
+    border-radius: 13px;
+    width: 470px;
+    margin-left: 30px;
+    height: 260px;
+    margin-top: 30px;
+}
+#div2f {
+    display: flex;
+    justify-content: flex-start; 
+}
+#texto12 {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#texto13 {
+    margin-left: 50px;
+    font-size: 13px;
+}
+#div3f {
+    display: flex;
+    justify-content: flex-start; 
+}
+#div4f {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 25px;
+    width: 125px;
+    height: 180px;
+}
+#div5f, #div6f {
+    background-color: white;
+    border: 5px white;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 125px;
+    height: 180px;
+}
+#circulo {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.imgplus {
+    width: 10px;
+    height: 10px;
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+}
+#texto1, #texto2, #texto6, #texto7, #texto8, #texto9, #texto10, #texto11, #texto12, #texto13 {
+    color: rgb(22, 55, 163);
 }
